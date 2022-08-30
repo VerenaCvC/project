@@ -55,9 +55,6 @@ inflation %>%
 ```
 ```{r}
 with(mtcars, plot(hp, mpg))
-theme_minimal() +
-  ylab("subjective inflation in %-points") +
-  labs(color = "red") +
-  theme(legend.position = c(.1, .9)) +
+
 ```
 
